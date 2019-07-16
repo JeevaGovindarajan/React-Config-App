@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
+import App from './Components/App/App';
+import './Components/App/App.css';
 
-const app = <h1>Hello Jeeva</h1>
-
-render(app, document.getElementById('app'));
+render(<App />, document.getElementById('app'));
