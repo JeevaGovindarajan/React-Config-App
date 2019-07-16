@@ -2,7 +2,7 @@ var path = require("path");
 var HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const config = {
-    entry: "index.js",
+    entry: "./src/index.js",
     output: {
         path: path.resolve(__dirname, "dist"),
         filename: "bundle.js"
@@ -16,7 +16,7 @@ const config = {
     mode: 'development',
     plugins: [
         new HtmlWebpackPlugin({
-            template: 'index.html'
+            template: './src/index.html'
         })
     ]
 }
