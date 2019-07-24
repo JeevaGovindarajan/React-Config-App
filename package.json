@@ -5,19 +5,22 @@
   "main": "index.js",
   "babel": {
     "presets": [
-      "@babel/preset-env", "@babel/preset-react"
+      "@babel/preset-env",
+      "@babel/preset-react"
     ]
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "create": "webpack",
     "start": "webpack-dev-server --open --port 1234"
-
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
