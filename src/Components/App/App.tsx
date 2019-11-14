@@ -1,9 +1,12 @@
-import React, { Component, ComponentClass, ReactNode } from 'react';
+import React, { Component, ReactNode } from 'react';
 import { HelloClassComponent, HelloFunctionComponent } from "../Hello/Hello";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-class App extends Component<{},{}> {
-    state = {
+interface IState {
+    checked: boolean
+}
+class App extends Component<{},IState> {
+    state:IState = {
         checked: false
     }
     handleCheck(): void {
