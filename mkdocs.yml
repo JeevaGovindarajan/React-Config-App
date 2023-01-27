@@ -1,7 +1,7 @@
 site_name: 'React-config-App'
 site_description: 'Components'
 repo_url: https://github.com/JeevaGovindarajan/React-Config-App
-edit_uri: edit/master/docs/README.md
+edit_uri: edit/master/docs/
 
 plugins:
     - techdocs-core
