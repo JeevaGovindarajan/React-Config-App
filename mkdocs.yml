@@ -1,6 +1,6 @@
 site_name: 'React-config-App'
 site_description: 'Reusable Scheduling Components'
-repo_url: https://github.com/JeevaGovindarajan/React-Config-App/mkdocs.yml
+repo_url: https://github.com/JeevaGovindarajan/React-Config-App
 edit_uri: edit/master
 
 plugins:
