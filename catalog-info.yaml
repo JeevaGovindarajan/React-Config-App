@@ -8,6 +8,6 @@ metadata:
 spec:
   type: other
   lifecycle: unknown
-  owner: JeevaGovindarajan
+  owner: user:JeevaGovindarajan
   top-contributors:
     - JeevaGovindarajan
