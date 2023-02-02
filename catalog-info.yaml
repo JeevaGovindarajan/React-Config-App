@@ -1,7 +1,13 @@
 apiVersion: backstage.io/v1alpha1
-kind: Domain
+kind: Component
 metadata:
-  name: mydomain
-  description: MyDomain
+  name: React-Config-App
+  annotations:
+    github.com/project-slug: JeevaGovindarajan/React-Config-App
+    backstage.io/techdocs-ref: dir:.
 spec:
-  owner: user:jeevagovindarajan
+  type: other
+  lifecycle: unknown
+  owner: JeevaGovindarajan
+  top-contributors:
+    - JeevaGovindarajan
