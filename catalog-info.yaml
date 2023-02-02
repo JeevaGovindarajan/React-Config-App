@@ -8,3 +8,4 @@ metadata:
 spec:
   targets: 
     - https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/all.yaml
+    - https://github.com/blamdemo/bigbadwolf1337/blob/master/catalog-info.yaml
