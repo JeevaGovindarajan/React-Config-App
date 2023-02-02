@@ -4,4 +4,4 @@ metadata:
   name: mydomain
   description: MyDomain
 spec:
-  owner: guests
+  owner: user:jeevagovindarajan
