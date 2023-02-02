@@ -6,8 +6,4 @@ metadata:
     github.com/project-slug: JeevaGovindarajan/React-Config-App
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: other
-  lifecycle: unknown
   owner: user:JeevaGovindarajan
-  top-contributors:
-    - JeevaGovindarajan
